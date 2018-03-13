@@ -42,7 +42,7 @@ public class ListaClientesActivity extends Activity {
                 intent.putExtra(NOME, lista.get(position));
 
                 startActivity(intent);
-                
+
             }
 
         });
